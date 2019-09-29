@@ -31,6 +31,10 @@ export const Container = styled.div`
     border: 0;
     border-radius: 5px;
     padding: 14px 26px;
+    text-align: center;
+    letter-spacing: 0.36px;
+
+    cursor: pointer;
   }
 `;
 
