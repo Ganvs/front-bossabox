@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 
 import { Container, Form } from './styles';
 
+import List from '../../components/List';
+
 export default class Main extends Component {
   render() {
     return (
@@ -16,6 +18,7 @@ export default class Main extends Component {
           </Form>
           <button>+ Add</button>
         </div>
+        <List />
       </Container>
     );
   }
