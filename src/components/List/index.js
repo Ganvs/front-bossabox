@@ -7,10 +7,8 @@ import { Container } from './styles';
 export default function List() {
   return (
     <Container>
-      <ul>
-        <Card />
-        <Card />
-      </ul>
+      <Card />
+      <Card />
     </Container>
   );
 }
