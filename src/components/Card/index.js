@@ -7,13 +7,13 @@ export default function Card() {
     <Container>
       <header>
         <a href="/">Notion</a>
-        <p>X Remove</p>
+        <span>X Remove</span>
       </header>
-      <p>
+      <span>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni iure eos
         dolor sunt est esse mollitia incidunt quis neque quaerat!
-      </p>
-      <p>#lorem #ipsum #dolor</p>
+      </span>
+      <span>#lorem #ipsum #dolor</span>
     </Container>
   );
 }

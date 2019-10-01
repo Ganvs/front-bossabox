@@ -8,5 +8,6 @@ export const Container = styled.div`
   header {
     display: flex;
     justify-content: space-between;
+    margin: 10px 0;
   }
 `;
