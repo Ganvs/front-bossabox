@@ -40,4 +40,20 @@ export const Container = styled.div`
 
 export const Form = styled.form`
   margin-top: 30px;
+
+  .search-box {
+    padding: 5px;
+    background: #f5f4f6 0% 0% no-repeat padding-box;
+    border: 1px solid #ebeaed;
+    border-radius: 5px;
+    opacity: 1;
+  }
+
+  .search-box::placeholder {
+    text-align: left;
+    font: Regular 20px/26px Source Sans Pro;
+    letter-spacing: 0.4px;
+    color: #b1adb9;
+    opacity: 1;
+  }
 `;

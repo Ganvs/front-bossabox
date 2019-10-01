@@ -12,7 +12,7 @@ export default class Main extends Component {
         <p>Very Useful Tools to Remember</p>
         <div className="search-add-session">
           <Form>
-            <input type="text" placeholder="search" />
+            <input type="text" placeholder="search" className="search-box" />
             <input type="checkbox" id="tag-search" />
             <label htmlFor="tag-search">search in tags only</label>
           </Form>
