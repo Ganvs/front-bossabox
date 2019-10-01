@@ -9,11 +9,11 @@ export default function Card() {
         <a href="/">Notion</a>
         <span>X Remove</span>
       </header>
-      <span>
+      <h5>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni iure eos
         dolor sunt est esse mollitia incidunt quis neque quaerat!
-      </span>
-      <span>#lorem #ipsum #dolor</span>
+      </h5>
+      <h4>#lorem #ipsum #dolor</h4>
     </Container>
   );
 }
